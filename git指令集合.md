@@ -14,7 +14,7 @@
 
        SSH配置：ssh-Keygen
 
-       配置完之后能得知ssh的文件位置，并且复制ssh里面的key??
+       配置完之后能得知ssh的文件位置，并且复制ssh里面的key
 
        然后把复制的key粘贴在github-我的-setting-SSH and GPG keys-Add new中去
 
@@ -30,7 +30,7 @@
 
 2、添加源仓库：git remote add origin yourgithub（切换到user-ssh地址）
 
-3、把远程仓库的内容下载下来：git pull origin 
+3、把远程仓库的内容下载下来：git pull origin
 
 4、检查绑定情况，查看远程仓库：git remote -v
 
@@ -58,7 +58,7 @@
 
        回退一个完整的版本：--hard，回退到上一个完整的版本
 
-       git reset --hard HEAD~1??
+       git reset --hard HEAD~1
 
        git reset --hard HEAD~2(回退两个版本)
 
@@ -72,11 +72,11 @@
 
 11、其中origin可以替换，只是远程服务器的一个名字而已，
 
-       git remote rename origin dev??
+       git remote rename origin dev
 
-       git remote??
+       git remote
 
-       返回dev??
+       返回dev
 
        获取github项目的地址
 
@@ -92,7 +92,7 @@
 
 差异比较：
 
-16、比较工作区与暂存区： git diff ?
+16、比较工作区与暂存区： git diff
 
 17、比较暂存区与本地版本库中最近一次commit 的内容： git diff --cached
 
@@ -104,7 +104,7 @@
 
 基础工作流
 
-20、查看分支： git branch ?
+20、查看分支： git branch
 
 21、创建新分支： git branch ，新建完后要切换分支，然后add，commit，push，最后在github才有显示
 
