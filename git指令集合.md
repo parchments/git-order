@@ -1,10 +1,8 @@
-# 本地与远程关联 
-
 ## 一、设置淘宝镜像（下载速度快）
 
-&ensp;&ensp;1、下载安装node.js
+1、下载安装node.js
 
-       https://nodejs.org/en/
+       [https://nodejs.org/en/](https://nodejs.org/en/)
 
 2、安装cnpm
 
@@ -12,7 +10,7 @@
 
 3、检查是否设置成功 cnpm -v，出现版本号则成功
 
-二、SSH配置（与远程关联的配置）
+## 二、SSH配置（与远程关联的配置）
 
        SSH配置：ssh-Keygen
 
