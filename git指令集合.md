@@ -106,15 +106,15 @@
 
 20、查看分支： git branch
 
-21、创建新分支： git branch ，新建完后要切换分支，然后add，commit，push，最后在github才有显示
+21、创建新分支： git branch <branchName> ，新建完后要切换分支，然后add，commit，push，最后在github才有显示
 
-22、创建并切换分支： git checkout -b
+22、创建并切换分支： git checkout -b <branchName>
 
-23、删除本地分支： git branch -d
+23、删除本地分支： git branch -d <branchName>
 
-24、删除远程分支： git push -d
+24、删除远程分支： git push -d <origin> <branchName>
 
-25、切换分支： git checkout
+25、切换分支： git checkout <branchName>
 
 26、删除某个文件： git rm -r --cached target 删除target文件夹后commit，push到master
 
