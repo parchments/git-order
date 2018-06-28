@@ -32,7 +32,7 @@
 
 2、添加源仓库：git remote add origin yourgithub（切换到user-ssh地址）
 
-3、把远程仓库的内容下载下来：git pull origin master
+3、把远程仓库的内容下载下来：git pull origin
 
 4、检查绑定情况，查看远程仓库：git remote -v
 
